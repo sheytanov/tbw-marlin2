@@ -1,4 +1,4 @@
-# Marlin 3D Printer Firmware Modified for Tevo Black Widow
+# Marlin 2.0 Firmware Modified for Tevo Black Widow
 
 This is a custom modification of [**Marlin**](http://marlinfw.org/) [**bugfix-2.0.x**](https://github.com/MarlinFirmware/Marlin/tree/bugfix-2.0.x) for Tevo Black Widow 3D printers.
 

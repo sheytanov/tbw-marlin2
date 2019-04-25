@@ -1,4 +1,3 @@
-#include <U8glib.h>
 
 /**
  * Marlin 3D Printer Firmware
@@ -424,7 +423,7 @@
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
 // (Use MINTEMP for thermistor short/failure protection.)
-#define HEATER_0_MAXTEMP 275
+#define HEATER_0_MAXTEMP 285
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
@@ -456,9 +455,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Black Widow
-  #define DEFAULT_Kp 33.99
-  #define DEFAULT_Ki 4.87
-  #define DEFAULT_Kd 59.3
+  #define DEFAULT_Kp 36.40
+  #define DEFAULT_Ki 3.86
+  #define DEFAULT_Kd 85.73
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -1013,7 +1012,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 240
+#define Z_MAX_POS 300
 
 /**
  * Software Endstops
@@ -1639,7 +1638,7 @@
 //
 //  Set this option if CLOCKWISE causes values to DECREASE
 //
-//#define REVERSE_ENCODER_DIRECTION
+#define REVERSE_ENCODER_DIRECTION
 
 //
 // This option reverses the encoder direction for navigating LCD menus.
